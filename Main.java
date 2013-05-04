@@ -56,7 +56,7 @@ class Port_Scanner {
     
   }
   
-  private void check_is_IP_address( String host ) {
+  private void check_is_IP_address( String host ) throws Exception {
     String host_split[] = host.split( "\\." );
     if( host_split.length == 4 ) {
       for( int i=0; i<host_split.length; i++ ) {
@@ -78,7 +78,7 @@ class Port_Scanner {
     }
   }
   
-  private void display_host_information() {
+  private void display_host_information() throws Exception {
     System.out.println( "\n\t| Host name           - " + this.host_inet_address.getHostName() );
     System.out.println( "\t| Canonical host name - " + this.host_inet_address.getCanonicalHostName() );
     System.out.println( "\t| Host address        - " + this.host_inet_address.getHostAddress() + "\n" );
