@@ -1,7 +1,7 @@
 /*
  * A simple programme for scanning ports
  * GitHub    - https://github.com/anjanborah/Port_scanner_in_Java_simple
- * Author    - Anjan Borah
+ * Author    - Anjan Borah < anjanborah@aol.com >
  * Copyright ( c ) 2013 Anjan Borah
  */
 
